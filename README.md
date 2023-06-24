@@ -41,4 +41,17 @@ You have created a local repository.
 Now you should create a remote repository. Ypu have to sign in on GitHub.  
 After that push a button "New" to make a remote repository. 
 *git remote add origin*  
-*git remote -v*
+*git remote -v*  
+
+## HEAD  
+
+HEAD is a file including latest verion of file changes.  
+Morever, yoy can yse HEAD as refference.  
+
+## Hash  
+
+There are 2 hash types.One of them is long type and another is short.  
+Hovewer, both of them are used to identify "version" of the file.  
+You can see long hash by command *git log*.  
+For short hash - *git --oneline*.  
+
