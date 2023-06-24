@@ -70,10 +70,11 @@ So you have to use *git add* again to move it in the stage.
 Staged files will be transfered.  
 
 ``` mermaid  
-Untracked --> Staged  
-Staged --> Tracked  
-Tracked --> Modified  
-Modified --> Staged
+graph TD;  
+Untracked --> Staged;  
+Staged --> Tracked;
+Tracked --> Modified;  
+Modified --> Staged;
 ```  
 
 ## Commit messages  
