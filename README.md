@@ -55,3 +55,28 @@ Hovewer, both of them are used to identify "version" of the file.
 You can see long hash by command *git log*.  
 For short hash - *git --oneline*.  
 
+## File status  
+
+There are 4 types of file status:  
+1) Untracked  
+File is in the git repository, but not added.  
+You should add file by using *git add*.  
+2) Tracked  
+File is added and tracked.  
+3) Modified  
+When you change your file he will be modified.  
+So you have to use *git add* again to move it in the stage.  
+4) Staged  
+Staged files will be transfered.  
+
+``` mermaid  
+Untracked --> Staged  
+Staged --> Tracked  
+Tracked --> Modified  
+Modified --> Staged
+```  
+
+## Commit messages  
+
+
+
