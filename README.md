@@ -78,5 +78,5 @@ Modified --> Staged
 
 ## Commit messages  
 
-
+Commit message must be short and informative, that people reading it understand this commit easily.
 
